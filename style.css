@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.profile-table {
+    border-collapse: collapse;
+}
+
+.profile-image img {
+    border-radius: 50%;
+}
+
+.profile-image {
+    padding-right: 20px; /* ✅ Challenge: ทำให้รูปกับ text ห่างกัน */
+}
+
+.skill-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.skill-table th,
+.skill-table td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
